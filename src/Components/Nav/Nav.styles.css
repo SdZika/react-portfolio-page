@@ -1,0 +1,20 @@
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin: 1em;
+}
+
+li {
+    padding: 1em;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00A8CC;
+}
