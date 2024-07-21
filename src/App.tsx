@@ -1,14 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+import { Layout } from './Components/Layout';
+import { Nav } from './Components/Nav'
+import { Footer } from './Components/Footer';
+import { Head } from './Components/Head';
+import { WorksList } from './Components/Works';
 
 function App() {
   return (
-    <div className="App">
-      
-          Hi, I am Marko, Web Deweloper
-      
-    </div>
+    <Layout>
+      <Nav />
+      <Head />
+      <WorksList />
+      <Footer />
+    </Layout>
   );
 }
 

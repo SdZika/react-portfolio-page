@@ -1,3 +1,6 @@
+
+
+
 ul {
     display: flex;
     list-style: none;
@@ -16,5 +19,5 @@ ul a {
 }
 
 nav a:hover {
-    color: #00A8CC;
+    color: var(--color-secondary);
 }
