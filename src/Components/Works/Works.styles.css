@@ -16,11 +16,24 @@
   }
   
 .work-preview {
+    flex: 1;
     border-radius: 4px;
     background-color: var(--color-white);
     padding: 3rem;
     margin: 0.5rem;
 }
+
+.box-left,
+.box-right {
+  padding-top: 1rem;
+  flex: 1;
+}
+
+.box-right {
+  text-align: end;
+  color: var(--color-secondary);
+}
+
   
 @media screen and (max-width: 600px) {
     .works {
